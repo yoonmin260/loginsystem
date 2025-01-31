@@ -10,4 +10,7 @@
 	<select id="memberList" resultType="memb">
 		SELECT mid,name,age,address FROM member;
 	</select>
+	<select id="signin" parameterType="string" resultType="memb">
+			SELECT mid,name,age,address FROM member where mid=#{mid} and mpw=password(#{mpw});
+	</select>
 </mapper>
