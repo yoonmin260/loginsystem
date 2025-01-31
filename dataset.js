@@ -77,9 +77,9 @@ d3.set_img(1,{imgtitle:"dao접근",imgurl:"https://drive.google.com/file/d/1gITW
 d3.set_img(1,{imgtitle:"매퍼",imgurl:"https://drive.google.com/file/d/1NU_0w1IzZLYJllijVjiDQ70z980zMnEa/view?usp=drive_link",imglog:"",sourceurl:"db쿼리 매퍼"})//이미지타이틀
 d3.set_img(1,{imgtitle:"로그인 가입 성공 결과",imgurl:"https://drive.google.com/file/d/1q-lcH322ld4RMj_lcqFuMlXOdHQNbfh1/view?usp=drive_link",imglog:"로그인 결과 화면",sourceurl:""})//이미지타이틀
 d3.set_content("회원로그아웃구현")
-//d2.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:""})//이미지타이틀
-//d2.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:""})//이미지타이틀
-//d2.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"로그인 된 화면",imgurl:"https://drive.google.com/file/d/1FCgBdo785WSd6DnMMOqhRDmeQ0Md3SLf/view?usp=drive_link",imglog:"로그인 된 화면",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"서버수신",imgurl:"https://drive.google.com/file/d/1y2yFD1K9uFg3vE_XVe0YQpEzd05OJn8h/view?usp=drive_link",imglog:"전송된 폼을 수신하는 서버측 코드",sourceurl:""})//이미지타이틀
+d3.set_img(2,{imgtitle:"클라이언트 결과",imgurl:"https://drive.google.com/file/d/1fAw4M1iPuFimukrRlic_kPsCsOCpwDv9/view?usp=drive_link",imglog:"로그아웃 결과",sourceurl:""})//이미지타이틀
 // d3.set_content("회원리스트연동")
 
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
