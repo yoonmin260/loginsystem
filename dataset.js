@@ -27,7 +27,7 @@ class DataSet{
 
 let d1 = new DataSet("개발환경구축")//메인 타이틀 //메뉴번호
 d1.set_content("사용자의 로그인 기능을 구현하여 로그인 사용자와 비로그인 사용자에 제공 서비스를 구분한다.")//서브 타이틀
-d1.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1rPzsPA1xgsVNUL8jVfQlEgIN6aG_n0Qp/view?usp=drive_link",imglog:"작성된 요구사항 명",sourceurl:"https://github.com/yoonmin260/loginsystem"})//이미지타이틀
+d1.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1rPzsPA1xgsVNUL8jVfQlEgIN6aG_n0Qp/view?usp=drive_link",imglog:"작성된 요구사항 명",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
 
 
 d1.set_content("목표 시스템 개발을 위한 적정한 언어를 선정하고 라이선스와 향후 지원사항을 참고하여 결정한다.")
@@ -47,13 +47,14 @@ data_sets.push(d1)
 // menu2 =============================================================
 let d2 = new DataSet("공통모듈구현")//메인타이틀
 d2.set_content("공통모듈구현을 작성합니다.")//서브 타이틀
-d2.set_img(0,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1nnSKw0su1NKkr-4O3bXNv33_ZZ8D54Qk/view?usp=drive_link",imglog:"작성된 요구사항 명",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
-
+d2.set_img(0,{imgtitle:"공통 모듈 구현 분리",imgurl:"https://drive.google.com/file/d/1hv9ccYS2xdb-8J5I500xlGKTFzkkbSP6/view?usp=drive_link",imglog:"분리 구현",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(0,{imgtitle:"분리대상 선정",imgurl:"https://drive.google.com/file/d/1Vi66TJPtYhqxNbrb5_Y_QQFf45jAedCa/view?usp=drive_link",imglog:"분리 대상 선정",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
 d2.set_content("테스트케이스를 작성합니다.")
+
 d2.set_img(1,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1nnSKw0su1NKkr-4O3bXNv33_ZZ8D54Qk/view?usp=drive_link",imglog:"작성된 요구사항 명",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
 
 d2.set_content("단위테스트를 작성합니다.")
-d2.set_img(2,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.google.com/file/d/1nnSKw0su1NKkr-4O3bXNv33_ZZ8D54Qk/view?usp=drive_link",imglog:"작성된 요구사항 명",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
+d2.set_img(2,{imgtitle:"테스트 빌드",imgurl:"https://drive.google.com/file/d/15E1T5AuBvEyMZNKr4B9v8mJjwFb71MES/view?usp=drive_link",imglog:"테스트 빌드",sourceurl:"https://docs.google.com/document/d/1fYO-WllL1nq8-qJC6Aj8fTeQplv7hvQzxUfRQAgAamo/edit?usp=drive_link"})//이미지타이틀
 
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
