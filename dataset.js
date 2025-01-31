@@ -58,12 +58,21 @@ d2.set_img(2,{imgtitle:"요구사항명세서작성",imgurl:"https://drive.googl
 
 d2.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d2)
-
+//d2.set_img(0,{imgtitle:"",imgurl:"",imglog:"",sourceurl:""})//이미지타이틀
 // menu3 =============================================================
 let d3 = new DataSet("서버프로그램구현")//메인타이틀
-// d3.set_content("회원가입구현")//서브타이틀
+d3.set_content("회원가입구현")//서브타이틀
+d3.set_img(0,{imgtitle:"회원가입 폼",imgurl:"https://drive.google.com/file/d/1fEYmPXmdUlfg4f6w8xPSCUZBezPWUEdl/view?usp=drive_link",imglog:"회원가입을 위한 입력서식",sourceurl:"https://github.com/yoonmin260/loginsystem/blob/main/LoginSystem/src/main/resources/static/signup.html"})//이미지타이틀
+d3.set_img(0,{imgtitle:"송신코드",imgurl:"https://drive.google.com/file/d/12aO4A8H_sfK1UbLmrYclcMgWuZJqiKUu/view?usp=drive_link",imglog:"회원가입 폼을 서버로 전송하는 서식",sourceurl:"https://github.com/yoonmin260/loginsystem/blob/main/LoginSystem/src/main/resources/static/signup.html"})//이미지타이틀
+d3.set_img(0,{imgtitle:"서버수신",imgurl:"https://drive.google.com/file/d/1Utz8OcX1sEcJzEKS9A_yTbPzLx_xwUXf/view?usp=drive_link",imglog:"전송된 폼을 수신하는 서버측 코드",sourceurl:"https://github.com/yoonmin260/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/MemberController.java"})//이미지타이틀
+d3.set_img(0,{imgtitle:"dao접근",imgurl:"https://drive.google.com/file/d/1rqeQbT9oHbsJf31Xdh_eGPOgOEfAWJFC/view?usp=drive_link",imglog:"데이터 베이스 접근 객체",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"매퍼",imgurl:"https://drive.google.com/file/d/1sKGFpG41RqAykNgTArPZPODpZJqUf2X5/view?usp=drive_link",imglog:"db쿼리 매퍼",sourceurl:"https://github.com/yoonmin260/loginsystem/blob/main/LoginSystem/src/main/java/com/itg/examp/config/memberMapper.xml"})//이미지타이틀
+d3.set_img(0,{imgtitle:"타이틀 가입 성공 결과",imgurl:"https://drive.google.com/file/d/1zw0PVP_4s1GRLRZti7iA2mESibTktw5t/view?usp=drive_link",imglog:"회원가입 결과 화면",sourceurl:""})//이미지타이틀
+d3.set_img(0,{imgtitle:"회원가입 db 결과",imgurl:"https://drive.google.com/file/d/1veGs75ZzGZbxi59aKpPZygD_zaDuLDbf/view?usp=drive_link",imglog:"데이터 베이스 결과 화면",sourceurl:""})//이미지타이틀
 // d3.set_content("회원로그인구현")
+
 // d3.set_content("회원리스트연동")
+
 d3.set_fill("사용자와 프로그램간에 인터렉티브한 로그인 세션 설정")//사용자 에필로그
 data_sets.push(d3)
 
